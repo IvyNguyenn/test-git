@@ -7,4 +7,8 @@ app.get("/", function(req, res) {
   res.send("<h1>Hello nha!!!</h1>");
 });
 
+app.get("/login", function(req, res) {
+  res.send("<h1>Login page!</h1>");
+});
+
 app.listen(process.env.PORT || PORT);
