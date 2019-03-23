@@ -13,7 +13,7 @@ app.get("/about", function(req, res) {
   res.send(
     "<center><h1>This is about us page</h1><h3>Hello everyone</h3><h2>" +
       time +
-      "</h2></center>"
+      "</h2></center><hr>"
   );
 });
 
