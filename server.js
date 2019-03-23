@@ -8,7 +8,9 @@ app.get("/", function(req, res) {
 });
 
 app.get("/login", function(req, res) {
-  res.send("<h1>Login page!</h1>");
+  res.send(
+    "<center><h1>Login page!</h1><input type='text'/><br><br><input type='submit'/></center>"
+  );
 });
 
 app.listen(process.env.PORT || PORT);
