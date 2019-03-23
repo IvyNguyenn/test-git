@@ -8,7 +8,7 @@ app.get("/", function(req, res) {
 });
 
 app.get("/home", function(req, res) {
-  res.send("<h1>This is home page</h1><hr>");
+  res.send("<h1>This is home page</h1><hr><p>No pain no gain</p>");
 });
 
 app.listen(process.env.PORT || PORT);
